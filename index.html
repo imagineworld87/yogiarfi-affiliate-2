@@ -4,15 +4,19 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Skincare Terlaris Shopee & Perawatan Wajah Alami — Glowing & Viral</title>
+<title>Skincare Terlaris Shopee & Perawatan Wajah Alami - Wajah Glowing & Sehat</title>
 
-<meta name="description" content="Skincare terlaris Shopee + perawatan wajah alami tradisional: lidah buaya, madu, kunyit, oatmeal + produk viral Indonesia.">
-<meta name="keywords" content="skincare shopee, skincare viral, skincare alami, wajah glowing, serum wajah">
+<meta name="description" content="Kumpulan skincare terlaris Shopee + perawatan wajah alami tradisional: lidah buaya, madu, kunyit, oatmeal, yogurt untuk kulit glowing sehat.">
+<meta name="keywords" content="skincare shopee, skincare viral, skincare alami, wajah glowing, serum wajah, masker alami">
 <meta name="robots" content="index, follow">
+
+<meta property="og:title" content="Skincare Terlaris Shopee & Perawatan Wajah Alami">
+<meta property="og:description" content="Produk skincare viral + perawatan wajah tradisional alami untuk kulit glowing">
+<meta property="og:type" content="website">
 
 <style>
 
-body{margin:0;font-family:Arial;background:#fff;color:#222}
+body{margin:0;font-family:Arial;background:#fff;color:#222;line-height:1.6}
 
 /* HEADER */
 header{
@@ -33,14 +37,14 @@ background:#fff0f5;
 }
 .hero h1{font-size:20px}
 
-/* ARTICLE */
+/* SECTION */
 .section{
-max-width:1000px;
+max-width:1100px;
 margin:auto;
 padding:15px;
 }
 
-h2{color:#e91e63;margin:15px 0}
+h2{color:#e91e63;margin-top:25px}
 
 /* GRID */
 .grid{
@@ -78,16 +82,16 @@ background:#e91e63;
 color:#fff;
 padding:8px;
 margin-top:8px;
-text-decoration:none;
 border-radius:6px;
+text-decoration:none;
 }
 
-.small-article{
+.small{
 background:#fafafa;
 padding:10px;
 border-left:4px solid #e91e63;
 margin:15px 0;
-font-size:14px;
+font-size:13px;
 }
 
 </style>
@@ -96,47 +100,39 @@ font-size:14px;
 <body>
 
 <header>
-<div class="logo">Beauty Store</div>
-<input placeholder="Cari skincare...">
+<div class="logo">Beauty Skincare Store</div>
+<input placeholder="Cari skincare, serum, masker...">
 </header>
 
 <div class="hero">
-<h1>💖 Skincare Terlaris Shopee & Perawatan Wajah Alami</h1>
-<p>Produk viral + perawatan tradisional untuk wajah glowing</p>
+<h1>💄 Skincare Terlaris Shopee & Perawatan Wajah Alami</h1>
+<p>Produk viral + skincare tradisional untuk wajah glowing sehat</p>
 </div>
 
 <div class="section">
 
-<h2>🔥 Produk Skincare Terlaris</h2>
-<div class="grid" id="grid1"></div>
+<h2>🔥 Skincare Terlaris Shopee</h2>
+<div class="grid" id="g1"></div>
 
-<div class="small-article">
-<b>Tips:</b> Skincare yang bagus biasanya mengandung niacinamide, vitamin C, dan bahan alami untuk hasil glowing maksimal.
-</div>
+<div class="small">💡 Niacinamide & Vitamin C membantu mencerahkan kulit dan menyamarkan noda hitam.</div>
 
 <h2>🌿 Perawatan Wajah Alami</h2>
-<div class="grid" id="grid2"></div>
+<div class="grid" id="g2"></div>
 
-<div class="small-article">
-<b>Tips:</b> Lidah buaya dan madu sering dipakai untuk melembapkan kulit dan mengurangi jerawat secara alami.
-</div>
+<div class="small">💡 Lidah buaya dan madu sering digunakan untuk melembapkan dan menenangkan kulit.</div>
 
-<h2>💧 Skincare Glowing & Viral</h2>
-<div class="grid" id="grid3"></div>
+<h2>💧 Skincare Viral & Best Seller</h2>
+<div class="grid" id="g3"></div>
 
-<div class="small-article">
-<b>Tips:</b> Perawatan rutin pagi dan malam lebih penting daripada sekadar produk mahal.
-</div>
+<div class="small">💡 Konsistensi pemakaian lebih penting daripada mahalnya produk.</div>
 
-<h2>🌸 Anti Jerawat & Brightening</h2>
-<div class="grid" id="grid4"></div>
+<h2>✨ Brightening & Anti Jerawat</h2>
+<div class="grid" id="g4"></div>
 
-<div class="small-article">
-<b>Tips:</b> Gunakan sunscreen setiap hari agar kulit tidak kusam dan tetap sehat.
-</div>
+<div class="small">💡 Sunscreen wajib dipakai setiap hari untuk mencegah kulit kusam.</div>
 
-<h2>✨ Beauty Recommendation</h2>
-<div class="grid" id="grid5"></div>
+<h2>💎 Premium Skincare & Treatment</h2>
+<div class="grid" id="g5"></div>
 
 </div>
 
@@ -154,18 +150,29 @@ function img(){
 return images[Math.floor(Math.random()*images.length)];
 }
 
-/* FULL PRODUCT LIST */
+/* FULL SKINCARE DATA (BERSIH & KHUSUS SKINCARE) */
 const products=[
 
 {"title":"Hanasui Double Expert Glow Serum","price":"Rp155.686","link":"https://s.shopee.co.id/BR6lSJ3Fz"},
+{"title":"Missglowing Whitening Booster","price":"Rp210.600","link":"https://s.shopee.co.id/AUrJ4TxOj4"},
 {"title":"SKIN1004 Glow Up Duo","price":"Rp369.000","link":"https://s.shopee.co.id/1Ld49fd358"},
-{"title":"MS Glow Paket Wajah","price":"Rp265.000","link":"https://s.shopee.co.id/4LGfjLFPLI"},
-{"title":"Cleora Skincare Complete Set","price":"Rp142.065","link":"https://s.shopee.co.id/AKXssLAyO1"},
+{"title":"Seruni Glowing Set 5 Pcs","price":"Rp259.000","link":"https://s.shopee.co.id/BR6lY8ior"},
 {"title":"Hanasui Vitamin C Serum","price":"Rp29.156","link":"https://s.shopee.co.id/AUrJ4ZCydF"},
-{"title":"Radea Skincare Glowing","price":"Rp125.000","link":"https://s.shopee.co.id/2qRrwcFdSr"},
+{"title":"Glad2Glow Skincare Bundle 7in1","price":"Rp100.000","link":"https://s.shopee.co.id/2BCB9HBVwZ"},
+{"title":"Cleora Complete Skincare Set","price":"Rp142.065","link":"https://s.shopee.co.id/AKXssLAyO1"},
+{"title":"MS Glow Paket Wajah","price":"Rp265.000","link":"https://s.shopee.co.id/4LGfjLFPLI"},
+{"title":"Radea Skincare Glowing Set","price":"Rp125.000","link":"https://s.shopee.co.id/2qRrwcFdSr"},
+{"title":"Linsky Gold Cream","price":"Rp25.999","link":"https://s.shopee.co.id/2Vp1Y1mByz"},
+{"title":"KIRGLOW Premium Skincare","price":"Rp245.000","link":"https://s.shopee.co.id/1gFuYWeJWd"},
 {"title":"Navagreen Brightening Cream","price":"Rp60.440","link":"https://s.shopee.co.id/5L9CvHz9Hs"},
+{"title":"GBEE Glow Beauty Set","price":"Rp140.000","link":"https://s.shopee.co.id/6L1k79Ralt"},
+{"title":"Suastikana Whitening Glow","price":"Rp282.000","link":"https://s.shopee.co.id/2g8RkRHMxt"},
 {"title":"Maxie Glow Skincare","price":"Rp53.000","link":"https://s.shopee.co.id/7pqXty6ecz"},
-{"title":"Retinol Eye Cream","price":"Rp59.850","link":"https://s.shopee.co.id/60Otii173p"},
+{"title":"Justmine Night Glow Set","price":"Rp255.000","link":"https://s.shopee.co.id/8V6EhE1rgA"},
+{"title":"Cleora Peeling Gel AHA BHA","price":"Rp61.250","link":"https://s.shopee.co.id/7fX7hjr6iv"},
+{"title":"Retinol Eye Cream Anti Aging","price":"Rp59.850","link":"https://s.shopee.co.id/60Otii173p"},
+{"title":"BG Skin Night Cream","price":"Rp81.996","link":"https://s.shopee.co.id/50WMWu42jp"},
+{"title":"WSP Glow Skincare","price":"Rp30.000","link":"https://s.shopee.co.id/9KfLgtMXwo"},
 {"title":"Azeclair Acne Serum","price":"Rp86.000","link":"https://s.shopee.co.id/6py0iKQNJR"},
 {"title":"Layna Skincare BPOM","price":"Rp64.499","link":"https://s.shopee.co.id/2LVbM5XlGT"}
 
@@ -173,11 +180,11 @@ const products=[
 
 /* DISTRIBUSI KE 5 GRID */
 const grids=[
-document.getElementById("grid1"),
-document.getElementById("grid2"),
-document.getElementById("grid3"),
-document.getElementById("grid4"),
-document.getElementById("grid5")
+document.getElementById("g1"),
+document.getElementById("g2"),
+document.getElementById("g3"),
+document.getElementById("g4"),
+document.getElementById("g5")
 ];
 
 let i=0;
