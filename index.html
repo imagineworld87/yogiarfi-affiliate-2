@@ -4,104 +4,168 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Skincare Terlaris Shopee + 10 Perawatan Wajah Alami untuk Kulit Glowing</title>
+<title>Skincare Shopee Terlaris + 10 Perawatan Wajah Alami untuk Kulit Glowing</title>
 
-<meta name="description" content="Skincare Shopee terlaris + 10 perawatan wajah alami: lidah buaya, madu, kunyit, oatmeal, yogurt. Artikel lengkap + produk viral.">
-
-<meta name="keywords" content="skincare shopee, perawatan wajah alami, masker alami, wajah glowing, serum wajah">
+<meta name="description" content="Skincare Shopee terlaris + 10 perawatan wajah alami seperti lidah buaya, madu, kunyit, oatmeal, yogurt. Artikel SEO lengkap + produk viral.">
+<meta name="keywords" content="skincare shopee, perawatan wajah alami, wajah glowing, serum wajah, masker alami">
 
 <style>
 
+/* ================= GLOBAL ================= */
 body{
 margin:0;
 font-family:Arial;
-background:#fff;
+background: linear-gradient(180deg,#fff0f5 0%, #ffffff 40%, #f7f7ff 100%);
 color:#222;
 line-height:1.7;
 }
 
+/* pattern */
+body::before{
+content:"";
+position:fixed;
+top:0;left:0;
+width:100%;height:100%;
+background-image: radial-gradient(#e91e63 0.6px, transparent 0.6px);
+background-size:22px 22px;
+opacity:0.04;
+z-index:-1;
+pointer-events:none;
+}
+
+/* ================= HEADER ================= */
 header{
 position:sticky;
 top:0;
 display:flex;
 gap:10px;
-padding:10px;
+padding:12px;
+background:rgba(255,255,255,0.85);
+backdrop-filter: blur(10px);
 border-bottom:1px solid #eee;
-background:#fff;
 z-index:10;
 }
 
-.logo{color:#e91e63;font-weight:bold}
-input{flex:1;padding:8px;border:1px solid #ddd;border-radius:8px}
-
-.hero{
-text-align:center;
-padding:30px;
-background:#fff0f5;
+.logo{
+color:#e91e63;
+font-weight:bold;
+font-size:18px;
 }
 
-.hero h1{font-size:22px}
+input{
+flex:1;
+padding:10px;
+border-radius:10px;
+border:1px solid #ddd;
+outline:none;
+}
 
+/* ================= HERO ================= */
+.hero{
+text-align:center;
+padding:45px 20px;
+background: linear-gradient(135deg,#ffe0ef,#fff);
+border-bottom:1px solid #eee;
+}
+
+.hero h1{
+font-size:24px;
+margin-bottom:10px;
+}
+
+.hero p{
+opacity:0.7;
+}
+
+/* ================= SECTION ================= */
 .section{
-max-width:1000px;
+max-width:1100px;
 margin:auto;
 padding:20px;
 }
 
-h2{color:#e91e63;margin-top:30px}
+h2{
+color:#e91e63;
+margin-top:35px;
+font-size:20px;
+}
 
-/* CAROUSEL */
+/* ================= CAROUSEL ================= */
 .carousel{
 display:flex;
-gap:12px;
+gap:14px;
 overflow-x:auto;
 scroll-snap-type:x mandatory;
 padding:10px 0;
 }
 
+.carousel::-webkit-scrollbar{
+display:none;
+}
+
+/* ================= CARD ================= */
 .card{
-min-width:220px;
+min-width:230px;
 flex:0 0 auto;
 scroll-snap-align:start;
-border:1px solid #eee;
-border-radius:12px;
+border-radius:16px;
 background:#fff;
 overflow:hidden;
-box-shadow:0 2px 8px rgba(0,0,0,0.05);
+box-shadow:0 8px 25px rgba(0,0,0,0.08);
+transition:0.25s;
+border:1px solid rgba(233,30,99,0.12);
+}
+
+.card:hover{
+transform:translateY(-5px);
+box-shadow:0 15px 40px rgba(0,0,0,0.15);
 }
 
 .card img{
 width:100%;
-height:150px;
+height:160px;
 object-fit:cover;
 }
 
-.card-body{padding:10px}
+.card-body{
+padding:12px;
+}
 
-.price{color:#e91e63;font-weight:bold}
+.price{
+color:#e91e63;
+font-weight:bold;
+margin-top:6px;
+}
 
 .btn{
 display:block;
-margin-top:8px;
+margin-top:10px;
 text-align:center;
-background:#e91e63;
+background: linear-gradient(135deg,#e91e63,#ff4d88);
 color:#fff;
-padding:8px;
-border-radius:8px;
+padding:10px;
+border-radius:10px;
 text-decoration:none;
+font-weight:bold;
 }
 
-/* ARTICLE */
+/* ================= ARTICLE ================= */
 .article p{
 margin-bottom:12px;
 }
 
+h3{
+margin-top:15px;
+color:#333;
+}
+
 .tip{
-background:#fafafa;
+background:#fff;
 border-left:4px solid #e91e63;
-padding:12px;
-margin:15px 0;
-font-size:14px;
+padding:14px;
+margin:20px 0;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.05);
 }
 
 </style>
@@ -110,59 +174,49 @@ font-size:14px;
 <body>
 
 <header>
-<div class="logo">Beauty Skincare</div>
+<div class="logo">Beauty Shop</div>
 <input placeholder="Cari skincare...">
 </header>
 
 <div class="hero">
 <h1>🌿 Skincare Shopee + 10 Perawatan Wajah Alami</h1>
-<p>Glowing • Anti Jerawat • Brightening • Natural Care</p>
+<p>Glowing • Anti Jerawat • Brightening</p>
 </div>
 
 <div class="section">
 
-<!-- ================= PRODUCT ================= -->
 <h2>🔥 Skincare Shopee Terlaris</h2>
-<div class="carousel" id="c1"></div>
+<div class="carousel" id="products"></div>
 
-<div class="tip">💡 Gunakan skincare secara rutin minimal 2–3 minggu untuk hasil maksimal.</div>
+<div class="tip">
+💡 Gunakan skincare secara rutin 2–3 minggu untuk hasil maksimal.
+</div>
 
-<!-- ================= ARTICLE ================= -->
-<h2>🌿 10 Perawatan Wajah Alami untuk Kulit Glowing</h2>
+<h2>🌿 10 Perawatan Wajah Alami</h2>
 
 <div class="article">
 
-<p><b>Perawatan wajah alami</b> semakin populer karena lebih aman, murah, dan bisa dibuat dari bahan dapur. Berikut 10 bahan alami terbaik untuk kulit wajah sehat dan glowing.</p>
+<p>Perawatan wajah alami bisa membantu menjaga kulit tetap sehat tanpa bahan kimia keras.</p>
 
-<h3>1. 🌱 Lidah Buaya</h3>
-<p>Menenangkan kulit, mengurangi jerawat, dan melembapkan secara alami.</p>
+<h3>1. Lidah Buaya</h3><p>Menenangkan kulit & mengurangi jerawat.</p>
 
-<h3>2. 🍯 Madu</h3>
-<p>Mengandung antibakteri yang membantu mengatasi jerawat dan membuat kulit lebih lembut.</p>
+<h3>2. Madu</h3><p>Antibakteri & melembapkan kulit.</p>
 
-<h3>3. 🥒 Mentimun</h3>
-<p>Menyegarkan wajah, mengurangi mata bengkak, dan menenangkan kulit iritasi.</p>
+<h3>3. Mentimun</h3><p>Menyegarkan wajah & mengurangi mata bengkak.</p>
 
-<h3>4. 🥛 Yogurt</h3>
-<p>Mengandung asam laktat yang membantu mencerahkan kulit dan mengangkat sel kulit mati.</p>
+<h3>4. Yogurt</h3><p>Mencerahkan kulit & mengangkat sel mati.</p>
 
-<h3>5. 🥑 Alpukat</h3>
-<p>Kaya vitamin E untuk melembapkan kulit kering dan membuat kulit lebih kenyal.</p>
+<h3>5. Alpukat</h3><p>Melembapkan kulit kering.</p>
 
-<h3>6. 🌾 Oatmeal</h3>
-<p>Eksfoliator alami untuk membersihkan pori-pori dan mengurangi jerawat.</p>
+<h3>6. Oatmeal</h3><p>Eksfoliasi alami untuk pori-pori.</p>
 
-<h3>7. 🟡 Kunyit</h3>
-<p>Anti inflamasi alami yang membantu mengurangi jerawat dan mencerahkan wajah.</p>
+<h3>7. Kunyit</h3><p>Mengurangi jerawat & inflamasi.</p>
 
-<h3>8. 🍌 Pisang</h3>
-<p>Mengandung vitamin dan mineral untuk memperbaiki tekstur kulit.</p>
+<h3>8. Pisang</h3><p>Melembapkan & memperbaiki kulit.</p>
 
-<h3>9. 🍋 Lemon</h3>
-<p>Kaya vitamin C untuk membantu mencerahkan noda hitam (gunakan hati-hati).</p>
+<h3>9. Lemon</h3><p>Mencerahkan noda hitam.</p>
 
-<h3>10. 🥚 Putih Telur</h3>
-<p>Membantu mengencangkan kulit dan mengurangi minyak berlebih.</p>
+<h3>10. Putih Telur</h3><p>Mengencangkan kulit & kontrol minyak.</p>
 
 </div>
 
@@ -170,22 +224,20 @@ font-size:14px;
 
 <script>
 
-/* GAMBAR UNIK */
+/* ===== GAMBAR UNIK ===== */
 const images=[
 "https://images.unsplash.com/photo-1556228578-8c89e6adf883",
 "https://images.unsplash.com/photo-1612810436541-336d4b1f3f0b",
 "https://images.unsplash.com/photo-1596755389378-c31d21fd1273",
 "https://images.unsplash.com/photo-1620916566398-39f1143ab7be",
 "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd",
-"https://images.unsplash.com/photo-1616683693504-3ea7e9ad8f3a"
+"https://images.unsplash.com/photo-1616683693504-3ea7e9ad8f3a",
+"https://images.unsplash.com/photo-1619451334792-150fd785ee74",
+"https://images.unsplash.com/photo-1612810436501-1c7f7a6a1b1d"
 ];
 
-function img(){
-return images[Math.floor(Math.random()*images.length)];
-}
-
-/* FULL PRODUK */
-const products=[
+/* ===== PRODUK FULL ===== */
+const products = [
 
 {"title":"Hanasui Glow Serum","price":"Rp155.686","link":"https://s.shopee.co.id/BR6lSJ3Fz"},
 {"title":"Missglowing Booster","price":"Rp210.600","link":"https://s.shopee.co.id/AUrJ4TxOj4"},
@@ -193,23 +245,23 @@ const products=[
 {"title":"Seruni Glow Set","price":"Rp259.000","link":"https://s.shopee.co.id/BR6lY8ior"},
 {"title":"Hanasui Vitamin C","price":"Rp29.156","link":"https://s.shopee.co.id/AUrJ4ZCydF"},
 {"title":"Glad2Glow Bundle","price":"Rp100.000","link":"https://s.shopee.co.id/2BCB9HBVwZ"},
-{"title":"Cleora Skincare Set","price":"Rp142.065","link":"https://s.shopee.co.id/AKXssLAyO1"},
-{"title":"MS Glow Paket Wajah","price":"Rp265.000","link":"https://s.shopee.co.id/4LGfjLFPLI"},
+{"title":"Cleora Skincare","price":"Rp142.065","link":"https://s.shopee.co.id/AKXssLAyO1"},
+{"title":"MS Glow Paket","price":"Rp265.000","link":"https://s.shopee.co.id/4LGfjLFPLI"},
 {"title":"Radea Skincare","price":"Rp125.000","link":"https://s.shopee.co.id/2qRrwcFdSr"},
 {"title":"Navagreen Cream","price":"Rp60.440","link":"https://s.shopee.co.id/5L9CvHz9Hs"},
-{"title":"Maxie Glow Skincare","price":"Rp53.000","link":"https://s.shopee.co.id/7pqXty6ecz"},
+{"title":"Maxie Glow","price":"Rp53.000","link":"https://s.shopee.co.id/7pqXty6ecz"},
 {"title":"Retinol Eye Cream","price":"Rp59.850","link":"https://s.shopee.co.id/60Otii173p"},
-{"title":"Azeclair Acne Serum","price":"Rp86.000","link":"https://s.shopee.co.id/6py0iKQNJR"},
-{"title":"Layna Skincare BPOM","price":"Rp64.499","link":"https://s.shopee.co.id/2LVbM5XlGT"}
+{"title":"Azeclair Serum","price":"Rp86.000","link":"https://s.shopee.co.id/6py0iKQNJR"},
+{"title":"Layna Skincare","price":"Rp64.499","link":"https://s.shopee.co.id/2LVbM5XlGT"}
 
 ];
 
-const container=document.getElementById("c1");
+const container=document.getElementById("products");
 
 products.forEach((p,i)=>{
 container.innerHTML+=`
 <div class="card">
-<img src="${img()}">
+<img src="${images[i % images.length]}">
 <div class="card-body">
 <div>${p.title}</div>
 <div class="price">${p.price}</div>
