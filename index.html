@@ -1,24 +1,195 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shoppee Murah</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 50px;
-            background-color: #f4f4f4;
-        }
-        h1 {
-            color: #e91e63;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Perawatan Wajah Alami & Skincare Terlaris Shopee (Panduan Lengkap Glowing)</title>
+
+<meta name="description" content="Panduan lengkap perawatan wajah alami dan skincare terlaris Shopee: lidah buaya, madu, kunyit, oatmeal, yogurt + produk skincare viral Indonesia.">
+<meta name="keywords" content="perawatan wajah alami, skincare alami, masker wajah tradisional, skincare shopee, wajah glowing alami">
+<meta name="robots" content="index, follow">
+
+<meta property="og:title" content="Perawatan Wajah Alami & Skincare Terlaris">
+<meta property="og:description" content="Panduan lengkap skincare alami + produk terlaris Shopee Indonesia">
+<meta property="og:type" content="website">
+
+<style>
+body{margin:0;font-family:Arial;line-height:1.6;background:#fff;color:#222}
+
+/* HEADER */
+header{
+position:sticky;top:0;
+background:#fff;
+display:flex;
+gap:10px;
+padding:10px;
+border-bottom:1px solid #eee;
+}
+.logo{font-weight:bold;color:#e91e63}
+input{flex:1;padding:8px;border:1px solid #ddd;border-radius:8px}
+
+/* HERO */
+.hero{
+padding:30px;
+text-align:center;
+background:#fff0f5;
+}
+.hero h1{font-size:22px}
+
+/* ARTICLE SEO */
+.container{max-width:900px;margin:auto;padding:15px}
+
+h2{color:#e91e63;margin-top:25px}
+h3{color:#444}
+
+.article{
+margin-bottom:20px;
+padding-bottom:10px;
+border-bottom:1px solid #eee;
+}
+
+/* PRODUCT */
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fill,minmax(240px,1fr));
+gap:15px;
+margin-top:20px;
+}
+
+.card{
+border:1px solid #eee;
+border-radius:10px;
+overflow:hidden;
+transition:.2s;
+background:#fff;
+}
+
+.card:hover{transform:scale(1.02)}
+
+.card img{
+width:100%;
+height:160px;
+object-fit:cover;
+}
+
+.card-body{padding:10px}
+
+.price{color:#e91e63;font-weight:bold}
+
+.btn{
+display:block;
+text-align:center;
+background:#e91e63;
+color:#fff;
+padding:8px;
+margin-top:10px;
+text-decoration:none;
+border-radius:6px;
+}
+
+.footer{
+text-align:center;
+padding:20px;
+font-size:12px;
+color:#777;
+margin-top:30px;
+}
+</style>
 </head>
+
 <body>
-    <h1>Selamat Datang di ShoppeeMurah.my.id</h1>
-    <p>Website Affiliate Shoppee Murah</p>
-    <p>Situs sedang dalam pengembangan...</p>
+
+<header>
+<div class="logo">Beauty SEO</div>
+<input placeholder="Cari skincare alami...">
+</header>
+
+<div class="hero">
+<h1>🌿 Perawatan Wajah Alami & Skincare Terlaris Shopee</h1>
+<p>Panduan lengkap wajah glowing menggunakan bahan tradisional + produk skincare viral</p>
+</div>
+
+<div class="container">
+
+<!-- ARTICLE 1 -->
+<div class="article">
+<h2>1. Lidah Buaya untuk Perawatan Wajah Alami</h2>
+<p>Lidah buaya mengandung vitamin A, C, dan E yang membantu melembapkan kulit, meredakan jerawat, dan membuat wajah lebih segar secara alami.</p>
+</div>
+
+<!-- ARTICLE 2 -->
+<div class="article">
+<h2>2. Madu untuk Wajah Glowing dan Halus</h2>
+<p>Madu memiliki sifat antibakteri yang membantu mengatasi jerawat sekaligus menjaga kelembapan kulit agar tetap glowing.</p>
+</div>
+
+<!-- ARTICLE 3 -->
+<div class="article">
+<h2>3. Kunyit sebagai Masker Wajah Tradisional</h2>
+<p>Kunyit mengandung kurkumin yang membantu mencerahkan kulit kusam dan menyamarkan bekas jerawat secara alami.</p>
+</div>
+
+<!-- ARTICLE 4 -->
+<div class="article">
+<h2>4. Oatmeal untuk Eksfoliasi Lembut</h2>
+<p>Oatmeal membantu mengangkat sel kulit mati tanpa membuat kulit iritasi sehingga cocok untuk kulit sensitif.</p>
+</div>
+
+<!-- ARTICLE 5 -->
+<div class="article">
+<h2>5. Yogurt dan Alpukat untuk Kulit Lembap</h2>
+<p>Kombinasi yogurt dan alpukat membantu menjaga elastisitas kulit dan membuat wajah lebih sehat dan kenyal.</p>
+</div>
+
+<h2>🔥 Skincare Terlaris Shopee</h2>
+
+<div class="grid" id="grid"></div>
+
+</div>
+
+<div class="footer">
+© 2026 Beauty SEO - Skincare & Perawatan Alami
+</div>
+
+<script>
+
+const images=[
+"https://images.unsplash.com/photo-1556228578-8c89e6adf883",
+"https://images.unsplash.com/photo-1612810436541-336d4b1f3f0b",
+"https://images.unsplash.com/photo-1596755389378-c31d21fd1273",
+"https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd"
+];
+
+function img(){
+return images[Math.floor(Math.random()*images.length)];
+}
+
+const products=[
+{"title":"Hanasui Double Expert Glow Serum","price":"Rp155.686","link":"https://s.shopee.co.id/BR6lSJ3Fz"},
+{"title":"SKIN1004 Glow Up Duo","price":"Rp369.000","link":"https://s.shopee.co.id/1Ld49fd358"},
+{"title":"Seruni Paket Glowing","price":"Rp259.000","link":"https://s.shopee.co.id/BR6lY8ior"},
+{"title":"Hanasui Vitamin C Serum","price":"Rp29.156","link":"https://s.shopee.co.id/AUrJ4ZCydF"},
+{"title":"MS Glow Paket Wajah","price":"Rp265.000","link":"https://s.shopee.co.id/4LGfjLFPLI"},
+{"title":"Navagreen Brightening Cream","price":"Rp60.440","link":"https://s.shopee.co.id/5L9CvHz9Hs"}
+];
+
+const grid=document.getElementById("grid");
+
+products.forEach(p=>{
+grid.innerHTML+=`
+<div class="card">
+<img src="${img()}">
+<div class="card-body">
+<h3>${p.title}</h3>
+<div class="price">${p.price}</div>
+<a class="btn" href="${p.link}" target="_blank">Cek di Shopee</a>
+</div>
+</div>
+`;
+});
+
+</script>
+
 </body>
-</html>
+    </html>
